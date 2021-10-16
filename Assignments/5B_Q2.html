@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Code</title>
+        <h1 align="center">Count Number of Digits</h1>
+    </head>
+    <body>
+        <script type="text/javascript">
+        var n,rem,dig=0;
+        n=parseInt(prompt("Enter Number:"));
+        document.write("Number is: "+n+"<br>"+"<br>");
+        while(n>0)
+        {
+            rem=n%10;
+            dig++;
+            n=parseInt(n/10);
+        }
+        document.write("Number of digits: "+dig);
+        </script>
+        <p>
+            
+            <code>
+                var n,rem,dig=0;<br>
+                while(n>0)<br>
+                {<br>
+                    rem=n%10;<br>
+                    dig++;<br>
+                    n=n/10;<br>
+                }<br>
+                <br>
+                
+            </code>
+            <kbd>Enter Number:12345</kbd><br>
+            <samp>Numberof digits:5</samp><br>
+        </p>
+           
+    </body>
+</html>
